@@ -13,6 +13,7 @@ module Sendcloud
   autoload :ParcelResource, "sendcloud/resources/parcel"
   autoload :ParcelStatusResource, "sendcloud/resources/parcel_status"
   autoload :ShippingMethodResource, "sendcloud/resources/shipping_method"
+  autoload :ShippingProductResource, "sendcloud/resources/shipping_product"
   autoload :LabelResource, "sendcloud/resources/label"
   autoload :ServicePointResource, "sendcloud/resources/service_point"
 
