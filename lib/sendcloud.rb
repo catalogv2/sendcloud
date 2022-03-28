@@ -20,6 +20,7 @@ module Sendcloud
   autoload :Parcel, "sendcloud/objects/parcel"
   autoload :ParcelStatus, "sendcloud/objects/parcel_status"
   autoload :ShippingMethod, "sendcloud/objects/shipping_method"
+  autoload :ShippingProduct, "sendcloud/objects/shipping_product"
   autoload :Label, "sendcloud/objects/label"
   autoload :ServicePoint, "sendcloud/objects/service_point"
 end
