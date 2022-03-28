@@ -25,6 +25,10 @@ module Sendcloud
       ShippingMethodResource.new(self)
     end
 
+    def shipping_product
+      ShippingMethodProduct.new(self)
+    end
+
     def label
       LabelResource.new(self)
     end
