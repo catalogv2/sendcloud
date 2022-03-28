@@ -29,7 +29,6 @@ module Sendcloud
     end
 
     def handle_response(response)
-      puts response.body.inspect
       case response.status
       when 400
         raise Error, "Your request was malformed. #{response.body["error"]}"
